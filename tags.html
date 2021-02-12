@@ -19,90 +19,18 @@ header-img: "img/tag-bg.jpg"
     </div>
 </header>
 
-<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<h1>Data Scientist Job Trends</h1>
-						<p>Data Source: LinkedIn, Indeed, Glassdoor <br />
-                        Post on 07/05/2020
-						</p>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html" ><b>Overview</b></a></li>
-							<li><a href="ds.html" class="active"><b>Data Scientist Trends</b></a></li>
-							<li><a href="sde.html"><b>Software Engineer Trends</b></a></li>
-                            <li><a href="skills.html"><b>In-Demand Skills</b></a></li>
-							<li><a href="tsp.html"><b>Time Series Predictions</b></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
+<!-- Main -->
 					<div id="main">
-						<!-- Content -->
-							<section id="content" class="main">
-								<h2><b>Geographic Patterns</b></h2>
-                                <span class="image fit"><img src="images/Indeed_map.png" alt="" /></span>
-								<p>This map shows the distribution of open data scientist positions throughout the country within the past month (June) in 2020. Data was scraped from Indeed.com. There are 2,158 open data scientist positions in total. As you move around the map, for each state, you will see the total jobs posted, the top five cities and the top five companies that have posted the most jobs. As you can see from the map, the state of California has the most data scientist job openings (432), accounting for about 20% of the total posted jobs. The top five companies that have posted most jobs in California are Apple (41), TuSimple (15), Amazon (11), Facebook (9) and Pinterest (7). The top five cities that have most jobs in California are San Francisco, Santa Clara, San Diego, Los Angeles and Palo Alto. The state of Virginia has the second most data scientist jobs (200), followed by the state of Washington (171), the state of New York (165) and the state of Massachusetts (125), in descending order. These five states have accounted for more than 50% of data scientist job openings in the country.</p>
-                                <span class="image fit"><img src="images/LinkedIn_map.png" alt="" /></span>
-								<p>This map shows the distribution of open data scientist positions throughout the country within the past month (June) in 2020. Data was scraped from LinkedIn.com. There are 10,426 open data scientist positions in total. The distribution of open data scientist positions by state is similar to the above map of Indeed jobs. The state of California has the most data scientist job openings (1,932), accounting for about 19% of the total posted jobs. Not taking into account some job hiring companies (e.g. HiredAllies.com), the top five companies that have posted most jobs in California are Apple (58), Facebook (57), Corkyy (27), Amazon (27) and Genetech (26). The state of Virginia has the second most posted data scientist jobs (1206), followed by the state of New York (991), the state of Texas (608) and the state of Washington (513), in descending order. These five states have accounted for more than 50% of data scientist job openings in the country.</p>
-                                <span class="image fit"><img src="images/LinkedIn_map.png" alt="" /></span>
-								<p>This map shows the distribution of open data scientist positions throughout the country within the past month (June) in 2020. Data was scraped from Glassdoor.com. There are 19,026 open data scientist positions in total.Clearly, the distribution of open data scientist positions by state is different from the above two maps of Indeed and LinkedIn jobs. The state of California (1,184), the state of Massachusetts (1,155), the state of Texas (1,137) and the state of Illinois (1,128) have posted about the same number of data scientist jobs. The other states that are following these four states are the state of New York (1,066), the state of Virginia (1,052) and the state of Pennsylvania (1,021). The top five companies that have posted most jobs in California are Genetech (33), Apple (27), CyberCoders (21), Exelixis (14) and Facebook (12).</p>
-                                
-								<h2><b>Big Company Features</b></h2>
-                                <span class="image fit"><img src="images/ds_big_linkedin.png" alt="" /></span>
-								<p>The above figure summerizes data scraped from LinkedIn website showing data scientist job postings of big companies (Amazon including AWS, Apple, Facebook, Google, IBM, and Microsoft) in the past month (05/26/2020-06/25/2020). The left panel demonstrates the comparison of job numbers among these big companies and the right panel shows the distribution of total job postings from these big companies on a daily basis. From the left panel in above figure, we can easily observe that Amazon including AWS has offered largest numbers (over 400) of data scientist job opennings in the past month, far ahead of rest big companies. This result is actually not too intuitive - as we all know, Amazon offers extensive supply for our daily needs including food, grocery, electronics, games and so on during this pandemic. Facebook and Apple almost tie for second place with approximately 70 job postings. There followed IBM whose job postings on LinkedIn are also over 50. Surprisingly, it is shown that Google has posted least data scientist jobs among these big companies. Combined with the trend of job numbers changing with posting date, we can see that job posting numbers peaked at specific days when big companies released majority of jobs on those days. For example, Facebook posted most jobs on June 3rd, and Amazon released plenty of jobs on June 17th and June 22nd, thus leading to the abrupt increase of job opennings on those days. Another pattern easy to observe is that weekdays have way more posting than weekends.</p>
-                                <span class="image fit"><img src="images/ds_big_indeed.png" alt="" /></span>
-								<p>The above figure summerizes data scraped from Indeed website showing data scientist job postings of big companies (Amazon including AWS, Apple, Facebook, Google, IBM, and Microsoft) in the past month (05/26/2020-06/25/2020). The left panel demonstrates the comparison of job numbers among these big companies and the right panel shows the distribution of total job postings from these big companies on a daily basis. Compared with LinkedIn data, we find that Indeed data suggest a similar trend as LinkedIn, showing that Amazon takes a leading position with highest demand in data scientist positions and Google stays the last.</p>
-                                <span class="image fit"><img src="images/ds_big_glassdoor.png" alt="" /></span>
-								<p>The above figure summerizes data scraped from Glassdoor website showing data scientist job postings of big companies (Amazon including AWS, Apple, Facebook, Google, IBM, and Microsoft) in the past month (05/26/2020-06/25/2020). The left panel demonstrates the comparison of job numbers among these big companies and the right panel shows the distribution of total job postings from these big companies on a daily basis. Compared with LinkedIn and Indeed data, we find that Glassdoor data indicates the same conclusion as LinkedIn and Indeed, suggesting that Amazon has offered most data scientist positions while Google has released least job openning in the past month.</p>
-                                
-                                <h2><b>Temporal Trends</b></h2>
-                                <span class="image fit"><img src="images/daily_trend_3w.png" alt="" /></span>
-                                <p>We performed an integrated analysis of scraped data from all three websites LinkedIn, Indeed and Glassdoor on a weekly basis. In the above figure, we have summarized the weekly changes in the total number of data scientist positions on the three websites in the past month (5/29-6/25 four weeks) . From the above figure, it is obvious to see that the overall number of data scientist positions published on the three major websites in June is on the rise. Among them, Glassdoor posted the most positions with the fastest upward trend. The number of positions in the week from June 19 to June 25 was as high as 6,205. There are also many data science positions on LinkedIn. Except for the slightly higher number in the first week (05/29-06/04), the positions in the next three weeks have basically increased steadily, from 1,690 to 3,221. Compared with Glassdoor and LinkedIn, Indeed has the fewest job vacancies, the overall number is relatively stable (maintained at around 500), and the total number of weekly jobs slightly increases every week. In summary, the number of data science job vacancies has been increasing every week in the past month. With the reopening of economy, we look forward to the release of more data science related jobs!</p>
+
+						<!-- Introduction -->
+							<section id="overview" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+                                            <p>We use Beautiful Soup to scrap data science and software engineer job openings from LinkedIn, Indeed, and Glassdoor. And then we clean the data and perform analyses. You can explore our data in Tableau Dashboard.</p>
+										</header>
+									
+									<div class='tableauPlaceholder' id='viz1613109516442' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16120001726350&#47;sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2_16120001726350&#47;sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;2_&#47;2_16120001726350&#47;sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-Hans' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1613109516442');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+									</div>
+								</div>
 							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-				        <section>
-							<h2>Supported by GoValley Inc.</h2>
-							<p>GoValley Inc. is education company offering courses and training for software engineer and data scientist job applicants.</p>
-							<ul class="actions">
-								<li><a href="https://www.zhitongguigu.com" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Contact Us</h2>
-							<dl class="alt">
-								<dt>Email</dt>
-								<dd><a href="#">govalleysummerintern@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
