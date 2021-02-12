@@ -4,21 +4,21 @@ SEOTitle: 制作：JanetGu
 header-img: img/post-bg-desk.jpg
 email: gujiayu7676@126.com
 description: "每只股票都有自己的故事."
-keyword: "Kali Blog, Kali的小站"
-url: "https://kalicn.github.io"          # your host, for absolute URL
+keyword: "专注价投，做时间的朋友"
+url: "https://stock_fundamentals_visualization.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/kalicn/kalicn.github.io.git" # you code repository
+github_repo: "https://github.com/gujiayu7676/stock_fundamentals_visualization.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "与其看教科书，还不如读Linux源码。"
+sidebar-about-description: "make data-driven investment decision"
 sidebar-avatar: /img/yeswecode.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: true
-github_username:    kalicn
+github_username:    gujiayu7676
 
 
 
