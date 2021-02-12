@@ -68,10 +68,10 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4383e168cd44bd4eeedaa34229a603c5
+#ba_track_id: 4383e168cd44bd4eeedaa34229a603c5
 
-ga_track_id: 'UA-171298607-1'
-ga_domain: auto
+#ga_track_id: 'UA-171298607-1'
+#ga_domain: auto
 
 
 
@@ -84,21 +84,21 @@ featured-condition-size: 1             # 相同标签数量大于这个数，才
 
 
 # Friends
-friends: [
-    {
-        title: "七夏浅笑",
-        href: "http://julydate.com/"
-    },{
-        title: "草地上的蚂蚁的博客",
-        href: "https://hillychen.github.io/"
-    },{
-        title: "Jiyiren.Blog",
-        href: "https://jiyiren.github.io/"
-    },{
-        title: "由我管理的NoSchoolBlog",
-        href: "https://kalicn.github.io/noschoolblog/"
-    },{
-        title: "Tianhaoo的博客",
-        href: "https://tianhaoo.github.io/"
-    }    
-]
+# friends: [
+#     {
+#         title: "七夏浅笑",
+#         href: "http://julydate.com/"
+#     },{
+#         title: "草地上的蚂蚁的博客",
+#         href: "https://hillychen.github.io/"
+#     },{
+#         title: "Jiyiren.Blog",
+#         href: "https://jiyiren.github.io/"
+#     },{
+#         title: "由我管理的NoSchoolBlog",
+#         href: "https://kalicn.github.io/noschoolblog/"
+#     },{
+#         title: "Tianhaoo的博客",
+#         href: "https://tianhaoo.github.io/"
+#     }    
+# ]
